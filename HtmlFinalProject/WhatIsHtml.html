@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML</title>
+    <link rel="shortcut icon" href="/assets/luffy.jpg" type="img.jpg">
+
+    <style>
+      @font-face {
+        font-family:SEGA LOGO FONT ;
+        src: url("assets/SEGA.TTF");
+      }
+
+      .center {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+      }
+      h2{
+        font-weight: 100;
+        font-family: SEGA LOGO FONT;
+      }
+      </style>
+      </head>
+    <body>
+    <div class="center">
+      <h1>Hello World</h1>
+      <h2>
+        Embeded video on Html from
+        <span
+          style="
+            color: rgba(211, 10, 10, 0.85);
+            border: 2px solid black;
+            background-color: black;
+            padding:1rem;
+            border-radius:50%;
+          "
+          >YouTube</span
+        >
+      </h2>
+      <div>
+        <p align:"center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eum
+          quasi modi, accusantium qui est placeat accusamus dignissimos
+          voluptatum nam et velit, at odio deleniti? Nesciunt veniam culpa enim
+          quaerat.
+        </p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/2jv1CF3iJkw"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <a href="./finalHtml201.html"><h2>Go back to Home page</h2></a>
+    </div>
+  </body>
+</html>
