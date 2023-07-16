@@ -12,23 +12,25 @@
         src: url("./assets/SEGA.TTF");
       }
       
-      .setup{
+    .setup{
         display:flex;
         flex-direction: column;
         align-items: center;
-        
+        text-align: center;
       }
+
     .center {
       display: flex;
       flex-direction: column;
       text-align: center;
     }
-    .header > h2{
+
+    .header > h2 {
       font-family: SEGA LOGO FONT;
       font-weight: 100;
-      font-size: 50px;  
+      font-size: 50px; 
+       
     }
-    
     
     .navigation{
       width: 100%;
@@ -53,11 +55,11 @@
 <body>
   <div class="setup">
     
-    <header class="center header " >
+    <header class="center header" id="top" >
       <h2>
         <a target="_blank"
         href="https://ibmcsr.udemy.com/course/the-ultimate-fullstack-web-development-bootcamp/learn/lecture/23504578#overview">
-        HTML - Final - project - section
+        HTML - Final - project 
       </a>
     </h2>
   </header>
@@ -100,7 +102,7 @@
           </main>
           
           <footer class="Footer center">
-            <sub> &copy; </sup> <a href="">
+            <sub> &copy; </sup> <a href="#top" >
               Footer - Daniel Alkalay finalHtml201
             </a> 
           </footer>
