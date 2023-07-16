@@ -1,0 +1,7 @@
+
+Specificity
+
+MDN Web Docs - https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+
+ ID selectors =  add 1-0-0
+
