@@ -1,0 +1,22 @@
+
+Specificity:
+
+	MDN Web Docs - https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+
+	ID selectors =  add 1-0-0
+
+Css coloring:
+	
+	https://cssgenerator.org/text-shadow-css-generator.html
+	
+	https://developer.mozilla.org/en-US/docs/Web/CSS
+
+Css Grid:
+
+	https://www.youtube.com/watch?v=EiNiSFIPIQE
+	
+	https://css-tricks.com/snippets/css/complete-guide-grid/
+
+
+
+
