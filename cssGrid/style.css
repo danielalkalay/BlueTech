@@ -2,6 +2,30 @@
   box-sizing: border-box;
 }
 
+@keyframes drop {
+  0% {
+    top: 10%;
+    transform: rotate(15deg);
+  }
+  25% {
+    top: 20%;
+    transform: rotate(30deg);
+  }
+  50% {
+    top: 30%;
+    transform: rotate(0deg);
+  }
+  75% {
+    top: 20%;
+    transform: rotate(-15deg);
+  }
+
+  100% {
+    top: 0%;
+    transform: rotate(0deg);
+  }
+}
+
 .container {
   display: grid;
   padding: 10px;
@@ -26,6 +50,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 2s;
+}
+
+.component:hover {
+  opacity: 0.7;
+  position: relative;
+  animation-name: drop;
+  animation-duration: 5s;
+  /* animation-direction: alternate; */
+  animation-iteration-count: infinite;
 }
 
 .header {
@@ -36,26 +70,7 @@
 
   /* area option  */
   grid-area: header;
-
-  /* animation */
 }
-
-/* .header > h1 {
-  animation-name: slide;
-  animation-duration: 4s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-} */
-
-/* @keyframes slide {
-  0% {
-
-  }
-  to{
-
-  }
-
-} */
 
 .navigation {
   /* grid-row: 2/3; */
