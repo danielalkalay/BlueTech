@@ -17,6 +17,14 @@ Css Grid:
 	
 	https://css-tricks.com/snippets/css/complete-guide-grid/
 
+	Js Closure :
+
+	https://www.youtube.com/watch?v=1S8SBDhA7HA 
+
+
+	Dom manipulation:
+	
+
 
 
 

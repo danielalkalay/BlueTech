@@ -29,12 +29,9 @@
 .container {
   display: grid;
   padding: 10px;
-  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-  /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
   grid-gap: 10px;
   height: 100vh;
 
-  /* the same layout with different syntax and method */
   grid-template-areas:
     "header header header header"
     "sidebar navigation navigation navigation "
@@ -53,7 +50,7 @@
   transition: 2s;
 }
 
-.component:hover {
+.component:active {
   opacity: 0.7;
   position: relative;
   animation-name: drop;
@@ -64,17 +61,12 @@
 
 .header {
   background-color: rgba(178, 125, 228, 0.682);
-  /* option : */
-  /* grid-row: 1 / 2; */
-  /* grid-column: 1 / 5; */
 
-  /* area option  */
+  /* area */
   grid-area: header;
 }
 
 .navigation {
-  /* grid-row: 2/3; */
-  /* grid-column: 2/5; */
   background-color: rgba(138, 71, 125, 0.652);
   /* area */
   grid-area: navigation;
@@ -88,15 +80,14 @@
 }
 
 .hero {
-  /* grid-area: 3/2/5/5; */
   background-color: rgba(82, 82, 233, 0.693);
+  height: 64vh;
 
   /* area */
   grid-area: hero;
 }
 
 .footer {
-  /* grid-area: 5/ 1 / 6 /5; */
   background-color: rgba(73, 191, 191, 0.769);
   /* area */
   grid-area: footer;
